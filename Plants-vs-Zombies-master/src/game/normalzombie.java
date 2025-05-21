@@ -58,7 +58,7 @@ public class normalzombie extends zombie {
     }
 
     public void move_action(Plants[][] plants) {
-        x -= 1;
+        x -= 2;
         if (meetwithplant(plants)) {
             eat();
         }
