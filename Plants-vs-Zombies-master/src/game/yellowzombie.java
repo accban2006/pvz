@@ -12,7 +12,7 @@ public class yellowzombie extends zombie {
 		this.y=y;
 		this.x=x;
 		move();
-		health=50;
+		health=450;
 	}
 	public SoundAndMusic a() {
 		return a;
