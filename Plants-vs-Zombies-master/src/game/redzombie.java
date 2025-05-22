@@ -11,7 +11,7 @@ public class redzombie extends zombie {
 	public redzombie(int x,int y) {
 		this.y=y;this.x=x;
 		move();
-		health=75;
+		health=100;
 	}
 	public SoundAndMusic a() {
 		return a;

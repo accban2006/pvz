@@ -32,7 +32,7 @@ public class Plants {
      * @param y Y coordinate
      */
     public Plants(int x, int y) {
-        health = 300;
+        health = 1700;
         this.x = x;
         this.y = y;
         shooter_move();
@@ -101,7 +101,7 @@ public class Plants {
      * Initializes Peashooter attributes for move state.
      */
     public void shooter_move() {
-        health = 300;
+        health = 1700;
         state = 1;
     }
 
@@ -155,7 +155,7 @@ public class Plants {
      * Initializes Frost Bean for move state.
      */
     public void ice_move() {
-        health = 300;
+        health = 1700;
         state = 1;
     }
 
@@ -209,7 +209,7 @@ public class Plants {
      * Initializes Sunflower for move state.
      */
     public void sun_move() {
-        health = 300;
+        health = 1700;
         state = 1;
     }
 
@@ -278,7 +278,7 @@ public class Plants {
      */
     public void nut_health() {
         state = 1;
-        health = 900;
+        health = 5000;
     }
 
     /**
@@ -295,7 +295,7 @@ public class Plants {
     private void nut_health_move() {
         if (page == 15) page = 0;
         else page++;
-        if (health <= 600) {
+        if (health <= 1000) {
             nut_hurt();
         }
     }
