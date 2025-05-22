@@ -21,7 +21,7 @@ public class darkzombie extends zombie {
         this.y = y;
         this.x = x;
         move();
-        health = 200;
+        health = 600;
     }
 
     /**
